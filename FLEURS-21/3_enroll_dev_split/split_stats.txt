@@ -1,0 +1,31 @@
+Language	TotalCount	TotalDurationSeconds	EnrollCount	EnrollDurationSeconds	DevCount	DevDurationSeconds
+en_us	394	3765.18	32	296.58	362	3468.60
+es_419	408	4871.58	26	303.72	382	4567.86
+fi_fi	415	5085.90	27	305.52	388	4780.38
+ru_ru	356	3883.56	25	300.60	331	3582.96
+ka_ge	409	4392.06	31	295.56	378	4096.50
+hy_am	395	4348.74	29	304.20	366	4044.54
+ar_eg	295	3147.82	34	311.70	261	2836.12
+fa_ir	369	5500.26	21	304.50	348	5195.76
+kk_kz	369	5494.80	22	301.02	347	5193.78
+sw_ke	211	2886.06	21	293.58	190	2592.48
+ha_ng	296	5506.56	16	295.56	280	5211.00
+yo_ng	378	6168.06	18	306.72	360	5861.34
+hi_in	239	2565.12	27	301.80	212	2263.32
+bn_in	402	5214.18	23	300.60	379	4913.58
+ta_in	377	4517.26	25	291.08	352	4226.18
+id_id	350	4173.12	27	303.18	323	3869.94
+vi_vn	361	4299.54	23	303.90	338	3995.64
+th_th	439	5139.60	28	291.54	411	4848.06
+cmn_hans_cn	409	4576.00	29	298.72	380	4277.28
+ja_jp	266	3389.52	24	304.56	242	3084.96
+ko_kr	226	2779.86	25	302.76	201	2477.10
+==============================================================================================================
+Number of languages	21
+Target enrollment duration per language	300.00
+Random seed	2026
+Total enrollment files	533
+Total enrollment duration seconds	6317.40
+Total dev files	6831
+Total dev duration seconds	85387.38
+Enroll/Dev overlap	0

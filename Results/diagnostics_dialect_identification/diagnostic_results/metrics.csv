@@ -1,0 +1,8 @@
+metric,APTM,APTM_PGTA,delta_percentage_points
+overall_eer_percent,8.744635,9.057203,+0.312568
+target_vs_other_target_eer_percent,10.675966,10.675966,+0.000000
+target_vs_nontarget_language_eer_percent,7.793860,8.093829,+0.299970
+top1_target_confusion_percent,3.665951,5.668813,+2.002861
+target_frr_actual_percent,10.014306,10.014306,+0.000000
+other_target_far_percent,11.498569,11.382332,-0.116237
+nontarget_language_far_percent,5.666667,6.701754,+1.035088

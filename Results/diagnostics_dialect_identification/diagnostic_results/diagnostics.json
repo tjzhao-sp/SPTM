@@ -1,0 +1,147 @@
+{
+  "target_dialects": [
+    "Minnan",
+    "Shanghai",
+    "Sichuan"
+  ],
+  "models": {
+    "APTM": {
+      "n_trials": 39576,
+      "n_utterances": 13192,
+      "n_target_utterances": 5592,
+      "n_nontarget_utterances": 7600,
+      "overall_eer_percent": 8.74463519313304,
+      "target_vs_other_target_eer_percent": 10.675965665236053,
+      "target_vs_nontarget_language_eer_percent": 7.793859649035604,
+      "top1_target_confusion_percent": 3.6659513590844073,
+      "top1_target_errors": 205,
+      "operating_point": {
+        "target_frr_requested_percent": 10.0,
+        "target_frr_actual_percent": 10.014306151645208,
+        "score_threshold": 0.393535,
+        "other_target_far_percent": 11.498569384835479,
+        "nontarget_language_far_percent": 5.666666666666666
+      },
+      "confusion_matrix": [
+        [
+          1943,
+          12,
+          43
+        ],
+        [
+          3,
+          1714,
+          79
+        ],
+        [
+          5,
+          63,
+          1730
+        ]
+      ],
+      "per_dialect": {
+        "Minnan": {
+          "target_utterances": 1998,
+          "correct_top1": 1943,
+          "top1_accuracy_percent": 97.24724724724724,
+          "target_vs_nontarget_eer_percent": 10.828947368450267
+        },
+        "Shanghai": {
+          "target_utterances": 1796,
+          "correct_top1": 1714,
+          "top1_accuracy_percent": 95.43429844097996,
+          "target_vs_nontarget_eer_percent": 6.5526315789288585
+        },
+        "Sichuan": {
+          "target_utterances": 1798,
+          "correct_top1": 1730,
+          "top1_accuracy_percent": 96.21802002224695,
+          "target_vs_nontarget_eer_percent": 4.42105263160206
+        }
+      },
+      "nontarget_source_far": {
+        "ms-my": {
+          "negative_trials": 6000,
+          "far_percent": 0.5333333333333333
+        },
+        "th-th": {
+          "negative_trials": 6000,
+          "far_percent": 1.25
+        },
+        "zh-cn": {
+          "negative_trials": 10800,
+          "far_percent": 10.972222222222221
+        }
+      }
+    },
+    "APTM+PGTA": {
+      "n_trials": 39576,
+      "n_utterances": 13192,
+      "n_target_utterances": 5592,
+      "n_nontarget_utterances": 7600,
+      "overall_eer_percent": 9.057203389933449,
+      "target_vs_other_target_eer_percent": 10.675965665236067,
+      "target_vs_nontarget_language_eer_percent": 8.093829247675401,
+      "top1_target_confusion_percent": 5.668812589413452,
+      "top1_target_errors": 317,
+      "operating_point": {
+        "target_frr_requested_percent": 10.0,
+        "target_frr_actual_percent": 10.014306151645208,
+        "score_threshold": 0.415165,
+        "other_target_far_percent": 11.38233190271817,
+        "nontarget_language_far_percent": 6.701754385964913
+      },
+      "confusion_matrix": [
+        [
+          1980,
+          4,
+          14
+        ],
+        [
+          13,
+          1681,
+          102
+        ],
+        [
+          26,
+          158,
+          1614
+        ]
+      ],
+      "per_dialect": {
+        "Minnan": {
+          "target_utterances": 1998,
+          "correct_top1": 1980,
+          "top1_accuracy_percent": 99.09909909909909,
+          "target_vs_nontarget_eer_percent": 9.309309309309405
+        },
+        "Shanghai": {
+          "target_utterances": 1796,
+          "correct_top1": 1681,
+          "top1_accuracy_percent": 93.59688195991092,
+          "target_vs_nontarget_eer_percent": 7.238307349664192
+        },
+        "Sichuan": {
+          "target_utterances": 1798,
+          "correct_top1": 1614,
+          "top1_accuracy_percent": 89.76640711902114,
+          "target_vs_nontarget_eer_percent": 7.00778642936596
+        }
+      },
+      "nontarget_source_far": {
+        "ms-my": {
+          "negative_trials": 6000,
+          "far_percent": 0.11666666666666668
+        },
+        "th-th": {
+          "negative_trials": 6000,
+          "far_percent": 2.25
+        },
+        "zh-cn": {
+          "negative_trials": 10800,
+          "far_percent": 12.833333333333332
+        }
+      }
+    }
+  }
+}

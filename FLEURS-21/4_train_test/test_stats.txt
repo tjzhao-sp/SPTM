@@ -1,0 +1,26 @@
+Language	TestWavCount
+========================================
+en_us	647
+es_419	908
+fi_fi	918
+ru_ru	775
+ka_ge	979
+hy_am	932
+ar_eg	428
+fa_ir	871
+kk_kz	856
+sw_ke	487
+ha_ng	621
+yo_ng	831
+hi_in	418
+bn_in	920
+ta_in	591
+id_id	687
+vi_vn	857
+th_th	1021
+cmn_hans_cn	945
+ja_jp	650
+ko_kr	382
+========================================
+Number of languages	21
+Total test WAV count	15724

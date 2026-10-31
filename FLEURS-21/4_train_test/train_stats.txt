@@ -1,0 +1,26 @@
+Language	TrainWavCount
+========================================
+en_us	2602
+es_419	2796
+fi_fi	2704
+ru_ru	2562
+ka_ge	1491
+hy_am	3053
+ar_eg	2104
+fa_ir	3101
+kk_kz	3200
+sw_ke	3070
+ha_ng	3259
+yo_ng	2339
+hi_in	2120
+bn_in	3006
+ta_in	2367
+id_id	2579
+vi_vn	2994
+th_th	2602
+cmn_hans_cn	3246
+ja_jp	2292
+ko_kr	2307
+========================================
+Number of languages	21
+Total train WAV count	55794
